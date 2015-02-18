@@ -1,4 +1,5 @@
 class Squad
+  # using att_reader creates getters, attr_accessor creates getters and setters. Better to use getters and setters. Note that params in save method are plain. See student.rb for proper usage.
   attr_reader :id
   attr_accessor :name, :mascot
   
